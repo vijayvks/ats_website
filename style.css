@@ -49,6 +49,10 @@ section {
   color: #fff !important;
 }
 
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
 .nav-link {
   position: relative;
   font-weight: 500;
@@ -168,6 +172,11 @@ section {
   margin-bottom: 1rem;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+
+.payment-notice {
+  background: #ffffff;
+  border: 1px solid rgba(13, 110, 253, 0.12);
 }
 
 .about-pill {
